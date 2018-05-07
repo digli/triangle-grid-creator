@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>triangelkalas</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+<body>
+  <main></main>
+  <footer class="control-panel">
+    <div class="range-input">
+      <span>Scale: <span id="scale-label">100</span> %</span>
+      <input type="range" max="200" min="10" value="100" step="5" id="scale-input">
+    </div>
+    <div class="range-input">
+      <span>Rotation: <span id="rotation-label">0</span> °</span>
+      <input type="range" max="180" min="-180" value="0" step="5" id="rotation-input">
+    </div>
+
+    <ul class="color-list">
+      <li><div class="color-teaser color-1"></div>1</li>
+      <li><div class="color-teaser color-2"></div>2</li>
+      <li><div class="color-teaser color-3"></div>3</li>
+      <li><div class="color-teaser color-4"></div>4</li>
+      <li><div class="color-teaser color-5"></div>5</li>
+      <li><div class="color-teaser color-6"></div>6</li>
+    </ul>
+
+    <div class="dimensions">
+      <span>Width</span>
+      <input value="17" id="width-input">
+    </div>
+    <div class="dimensions">
+      <span>Height</span>
+      <input value="8" id="height-input">
+    </div>
+    <button id="redraw-button">Redraw</button>
+  </footer>
+</body>
+</html>
